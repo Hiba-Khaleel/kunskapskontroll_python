@@ -9,5 +9,6 @@ dependencies = [
     "ipython>=9.2.0",
     "matplotlib>=3.10.3",
     "pandas>=2.2.3",
+    "plotly-express>=0.4.1",
     "seaborn>=0.13.2",
 ]

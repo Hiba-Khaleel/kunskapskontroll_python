@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load data
-df = pd.read_csv("./diamonds.csv")
+df = pd.read_csv(
+    "/Users/hibakhaleel/Desktop/Kunskapskontroll/del2/diamonds.csv")
 df['price_per_carat'] = df['price'] / df['carat']
 
 # Categorize features
